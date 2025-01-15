@@ -25,7 +25,9 @@ const Home = () => {
             <button><img src={play_icon} alt="" />Play</button>
             <button className='dark'><img src={info_icon} alt="" />More Info</button>
           </div>
+          <div className="title-cards">
           <TitleCards/>
+          </div>
         </div>
       </div>
       <div className="more-cards">
